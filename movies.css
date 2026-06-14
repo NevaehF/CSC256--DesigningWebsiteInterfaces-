@@ -1,0 +1,50 @@
+body{
+            background-color: #6d524e;
+        }
+        header{
+            color: bisque;
+            text-align:center
+    
+        }
+        main{
+            align-items: center;
+            text-align: center;
+        }
+        #divSlideshow{
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        #divSlideshow img{
+            width: 60%; 
+            height: auto;
+            border-radius: 15px; 
+        }
+        button{
+            background-color: bisque;
+            color: black;
+            padding: 8px;
+            border: none; 
+            font-size: large;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+         #divMovies{
+            margin: 20px;
+            padding: 10px; 
+            border: 3px solid #ccc;
+        }
+        button{
+            background-color: #ceb2cf;
+            color: black;
+            padding: 10px; 
+            border-radius: 10px;
+            border:none;
+            margin: 10px;
+            font-size: large; 
+        }
+        button:hover{
+            color: rgb(57, 67, 57); 
+            background-color: #5a5a5a;
+        }
