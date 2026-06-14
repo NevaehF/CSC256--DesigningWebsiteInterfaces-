@@ -1,0 +1,31 @@
+body{
+            background-color: #6d524e;
+        }
+        header{
+            color: bisque;
+            text-align:center
+    
+        }
+        main{
+            align-items: center;
+            text-align: center;
+        }
+        #divSlideshow{
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        #divSlideshow img{
+            width: 60%; 
+            height: auto;
+            border-radius: 15px; 
+        }
+        button{
+            background-color: bisque;
+            color: black;
+            padding: 8px;
+            border: none; 
+            font-size: large;
+            border-radius: 8px;
+            margin: 10px;
+        }
