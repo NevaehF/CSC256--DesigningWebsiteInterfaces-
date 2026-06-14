@@ -55,14 +55,42 @@
         Then use a descriptive name for your function - maybe incorporate a verb
         open and close parentheses ()
         open and close curly braces {}
-        */
 
+        this is a stand-alone function - it does not take any arguments/parameters and it doesn't restun any values/ 
+        */
         function showGreeting(){
             console.log("Hi CSC 256!");
         }
 
-        // Call the function we just wrote - use the function anme plus open and close parentheses
+        // Call the function we just wrote - use the function anme + open and close parentheses
         showGreeting();
+
+        // This function will display a greeting using a name that was passed in as a parameter/argument
+        function displayGreeting(user_name ){
+            console.log("Hi, " + user_name + "!");
+        }
+
+        // Call the function and pass in a value for the user_name
+        displayGreeting("Nevaeh"); // add the ; at the end of nearly every line of JavaScript - because it is a good habit to have 
+
+        // Create a function to add numbers together and retuen them
+        function returnSum(){
+            return 5 + 4;
+        }
+
+        // Set the value that the function returns to this variable called result 
+        let result = returnSum();
+        console.log("result: " + result);
+
+        // Set up a function that atkes 2 numbers as parameters and adds them together and returns the sum 
+        function addNumbers(num1, num2){
+            return num1 + num2;
+        }
+
+        // call the function 
+        result = addNumbers(3, 4);
+
+        console.log("result: " + result);
     </script>
 
 
