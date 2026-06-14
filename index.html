@@ -16,13 +16,23 @@
     <main> 
         <section>
             <h2>My info:</h2>
-            <div> Major: Advancing Computer Science (ACS)</div>
-            <div> Email: nevferna@uat.edu</div>
-            <div> Expected Graduate Date: December 2026</div>
+            <div id="divMajor"> Major: Advancing Computer Science (ACS)</div>
+            <div id="divEmail"> Email: nevferna@uat.edu</div>
+            <div id="divGradDate"> Expected Graduate Date: December 2026</div>
         </section>
         <section> 
             <img src="./images/compsci.jpg" alt="CompSci Boards" class="img-compsci">
         </section>
     </main>
+
+    <!-- include a reference to the external JavaScript file -->
+   <script src="script.js"> </script>
+
+   <!--this script will let us call the code to add the text to our page -->
+   <script> 
+       // Call the function
+        loadInfo();
+    </script> 
+
 </body>
 </html>

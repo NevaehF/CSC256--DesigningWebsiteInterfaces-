@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <!-- TODO: Move JavaScript code to external file --> 
+    <script>
+        // This is a JavaScript single-line comment
+        /* This is a JavaScript multi-line comment
+        The goal in this class is to comment nearly every line of your javascript code. 
+        Javascript is a scripting language - it exists to make web pages more interactive
+        Javascript is a dynamicallly typed language - JavaScript will guess the type of your variables 
+        JavaScript uses the Document Object Model (DOM) to interact with the HTML page.
+        JavaScript and Java are entirely different languages that happen to be named similarly.
+        
+        4 key fundamental components of programming/scripting .
+        1) Variables 
+        2) functions
+        3) id/else (decision logic)
+        4) loops (repetition)
+
+        1) Variables - a pice of code that allows us to store a value
+        */
+
+        // This example is the "Right" way to set up a variable in JavaScript
+        // let is a JavaScript keyword that allows us to create a variable
+        // then creaye a meaningful variable name
+        // the single = sighn is a assignment - the code on the left hand side of the = sign will take on the value of the code on the right hand side 
+        // ^ of the equal sign 
+        let = myName = "Nevaeh";
+
+        // var is another way to create a variable in JavaScript
+        // myName and myname are two different variables because JavaScript is case-sensitive
+        var myname = "Nevaeh";
+
+        // There asre differnt stylrd of variable names  -for example,  camalCase - first word starts with a lower case, other words srart with a capital letter - 
+        // ^ for example: MyPetsNameIs
+        // snake_case - seperate each word with an _ 
+
+        // this is technically a valid way to set up a variable in JavaScript, but please don't - use the keyword let when creating variables
+        my_name = "Nevaeh";
+
+        // If you have a variable where the value should not change, use the keyword const; use UPPERCASE for the name of a constant to give you 
+        // ^ ither developers the context that the value does not change 
+        const PI = 3.14;
+
+        /* 2) Functions - functions are awesome! they are a way of prganozing our code and allow us to easily reuse our code
+
+        There are 4 wasy to use/write functions
+
+        When setting up a function use the function keyword
+        Then use a descriptive name for your function - maybe incorporate a verb
+        open and close parentheses ()
+        open and close curly braces {}
+        */
+
+        function showGreeting(){
+            console.log("Hi CSC 256!");
+        }
+
+        // Call the function we just wrote - use the function anme plus open and close parentheses
+        showGreeting();
+    </script>
+
+
+</body>
+</html>
